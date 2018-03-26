@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:columnCount="3"
+        android:rowCount="3"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:type="circle"
+        />
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_marginLeft="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:type="round"
+            app:miv_corner_radius="15dp"/>
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:type="polygon"
+            app:miv_sides="5"
+            app:miv_corner_radius="25dp"/>
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:type="polygon"
+            app:miv_sides="5"
+
+            app:miv_corner_radius="25dp"
+            app:miv_rotate_angle="180"/>
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:miv_sides="7"
+            app:type="polygon"
+            app:miv_corner_radius="0dp"
+            app:miv_rotate_angle="0"/>
+
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:miv_sides="6"
+            app:type="polygon"
+            app:miv_corner_radius="0dp"
+            app:miv_border_overlay="true"
+             app:miv_fill_color="@color/colorAccent"/>
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:miv_sides="6"
+            app:type="polygon"
+            app:miv_corner_radius="0dp"
+            app:miv_rotate_angle="0"
+            app:miv_border_overlay="true"
+            app:miv_border_width="1dp"
+            app:miv_border_color="@android:color/darker_gray"
+          />
+
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:miv_sides="6"
+            app:type="polygon"
+            app:miv_corner_radius="0dp"
+            app:miv_rotate_angle="0"
+            app:miv_border_overlay="false"
+            app:miv_border_width="1dp"
+            app:miv_border_color="@android:color/black"
+        />
+
+
+
+        <com.xj.shapeview.MultiImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tanyan"
+            app:miv_sides="7"
+            app:type="polygon"
+            app:miv_corner_radius="10dp"
+            app:miv_rotate_angle="0"
+
+        />
+
+
+    </GridLayout>
+</ScrollView>

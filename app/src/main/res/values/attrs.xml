@@ -1,0 +1,45 @@
+<resources>
+    <declare-styleable name="ViewSettingItem">
+        <attr name="iv_item_logo" format="reference" />
+        <attr name="tv_item_title" format="string" />
+        <attr name="tv_item_describe" format="string" />
+        <attr name="tv_item_status" format="boolean" />
+        <attr name="tv_item_status_show" format="boolean" />
+        <attr name="tv_item_status_content" format="string" />
+        <attr name="iv_item_arrow" format="boolean" />
+        <attr name="switch_item_status" format="boolean" />
+        <attr name="switch_item_status_show" format="boolean" />
+        <attr name="view_item_divider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HexagonImageView">
+        <attr name="hiv_border_width" format="dimension" />
+        <attr name="hiv_border_color" format="color" />
+        <attr name="hiv_border_overlay" format="boolean" />
+        <attr name="hiv_fill_color" format="color" />
+        <attr name="hiv_corner_radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PathMultiView">
+        <attr name="pmv_sides" format="integer"/>
+    </declare-styleable>
+
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+        <enum name="polygon" value="2"/>
+    </attr>
+
+    <declare-styleable name="MultiImageView">
+        <attr name="type"/>
+        <attr name="miv_border_width" format="dimension" />
+        <attr name="miv_border_color" format="color" />
+        <attr name="miv_border_overlay" format="boolean" />
+        <attr name="miv_fill_color" format="color" />
+        <attr name="miv_corner_radius" format="dimension"/>
+        <attr name="miv_sides" format="integer"/>
+        <attr name="miv_rotate_angle" format="float"/>
+    </declare-styleable>
+
+
+</resources>
